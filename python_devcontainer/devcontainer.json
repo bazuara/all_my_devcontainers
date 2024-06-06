@@ -1,0 +1,20 @@
+{
+	"name": "Bazuara's Python Development Playground",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"postCreateCommand": "pip install --upgrade -r requirements.txt",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"streetsidesoftware.code-spell-checker",
+				"2gua.rainbow-brackets",
+				"oderwat.indent-rainbow",
+				"GitHub.copilot",
+				"ms-python.python",
+				"charliermarsh.ruff"
+			]
+		}
+	},
+	"remoteUser": "vscode"
+}
