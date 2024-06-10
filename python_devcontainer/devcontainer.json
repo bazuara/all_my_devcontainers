@@ -3,7 +3,7 @@
 	"build": {
 		"dockerfile": "Dockerfile"
 	},
-	"postCreateCommand": "pip install --upgrade -r requirements.txt",
+	"postCreateCommand": "mkdir .vscode && cp .devcontainer/vscode_settings.json .vscode/settings.json",
 	"customizations": {
 		"vscode": {
 			"extensions": [
