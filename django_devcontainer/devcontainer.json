@@ -10,7 +10,8 @@
             "extensions": [
                 "ms-python.python",
                 "sdras.night-owl",
-                "ms-python.pylint"
+                "ms-python.pylint",
+                "ms-python.autopep8"
             ],
             "settings": {
                 "workbench.colorTheme": "Night Owl",
