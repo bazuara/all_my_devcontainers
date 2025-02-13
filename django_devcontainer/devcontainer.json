@@ -1,0 +1,17 @@
+{
+    "name": "Bazuara's django devcontainer",
+    "dockerComposeFile": ["docker-compose.yml"],
+    "service": "devcontainer",
+    "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "sdras.night-owl"
+            ],
+            "settings": {
+                "workbench.colorTheme": "Night Owl"
+            }
+        }
+    }
+}
