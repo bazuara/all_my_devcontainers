@@ -11,7 +11,8 @@
                 "ms-python.python",
                 "sdras.night-owl",
                 "ms-python.pylint",
-                "ms-python.autopep8"
+                "ms-python.autopep8",
+                "batisteo.vscode-django"
             ],
             "settings": {
                 "workbench.colorTheme": "Night Owl",
