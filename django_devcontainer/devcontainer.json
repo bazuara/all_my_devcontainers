@@ -1,16 +1,28 @@
 {
     "name": "Bazuara's django devcontainer",
-    "dockerComposeFile": ["docker-compose.yml"],
+    "dockerComposeFile": [
+        "docker-compose.yml"
+    ],
     "service": "devcontainer",
     "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
     "customizations": {
         "vscode": {
             "extensions": [
                 "ms-python.python",
-                "sdras.night-owl"
+                "sdras.night-owl",
+                "ms-python.pylint"
             ],
             "settings": {
-                "workbench.colorTheme": "Night Owl"
+                "workbench.colorTheme": "Night Owl",
+                "editor.formatOnSave": true,
+                "editor.rulers": [
+                    80,
+                    120
+                ],
+                "python.linting.pylintArgs": [
+                    "--load-plugins",
+                    "pylint_django"
+                ]
             }
         }
     }
