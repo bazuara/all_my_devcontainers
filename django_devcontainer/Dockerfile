@@ -24,5 +24,3 @@ EXPOSE 8000
 RUN adduser --disabled-password --gecos '' vscodeuser
 # Switch to non root user
 USER vscodeuser
-
-WORKDIR /app
