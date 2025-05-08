@@ -1,0 +1,9 @@
+{
+    "name": "Bazuara's nextjs with postgres devcontainer",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "devcontainer",
+    "workspaceFolder": "/workspace",
+    "mounts": [
+        "source=${localEnv:HOME}/.ssh,target=/home/devuser/.ssh,type=bind,consistency=cached"
+    ]
+}
